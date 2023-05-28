@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # Homebrew Script for OSx
-# To execute: save and `chmod +x ./brew-install-script.sh` then `./brew-install-script.sh`
+# To execute: save and `chmod +x ./install.sh` then `./install.sh`
 
 # Abort on error
 set -e
