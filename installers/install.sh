@@ -18,8 +18,8 @@ brew install --cask mactex
 # Dev Tools
 echo "Installing dev tools..."
 brew install bash
-brew install fish
 brew install git
+brew install lazygit
 brew install docker
 brew install neovim
 brew install gdb
@@ -28,6 +28,8 @@ brew install node
 brew install googletest
 brew install wget
 brew install ripgrep
+brew install tmux
+LV_BRANCH='release-1.3/neovim-0.9' bash <(curl -s https://raw.githubusercontent.com/LunarVim/LunarVim/release-1.3/neovim-0.9/utils/installer/install.sh)
 brew install --cask github
 brew install --cask visual-studio-code
 
@@ -38,5 +40,5 @@ brew install --cask firefox
 
 # Other Tools
 echo "Installing some other tools..."
-brew install --cask sioyek
+brew install --cask skim
 brew install --cask alttab
