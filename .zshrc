@@ -18,10 +18,10 @@ ZSH_THEME="robbyrussell" # set by `omz`
 # An empty array have no effect
 # ZSH_THEME_RANDOM_CANDIDATES=( "robbyrussell" "agnoster" )
 
+source ./.config.sh
 
 # Create aliases for .dotfile management
-alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/.git --work-tree=$HOME'
-
+alias config="/usr/bin/git --git-dir=$HOME/.dotfiles/.git --work-tree=$HOME"
 
 # Create aliases for vi, vim, and nvim to point to lvim
 alias vi="lvim"
